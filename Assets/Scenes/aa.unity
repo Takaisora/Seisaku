@@ -560,6 +560,9 @@ GameObject:
   - component: {fileID: 1277789731}
   - component: {fileID: 1277789730}
   - component: {fileID: 1277789729}
+  - component: {fileID: 1277789734}
+  - component: {fileID: 1277789733}
+  - component: {fileID: 1277789732}
   m_Layer: 0
   m_Name: Ma
   m_TagString: Untagged
@@ -639,6 +642,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277789727}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1277789732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277789727}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb22240a4b9604c41a33de88ff6a54fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 6005505794565355293, guid: 5b1df896c40d3eb41acb5a634f3bf633,
+    type: 3}
+  muzzle: {fileID: 1277789728}
+  bulletPower: 500
+--- !u!114 &1277789733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277789727}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e3f925f47e5f743b891811691153bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 6005505794565355293, guid: 82c203302660afe4eb095e39359ed6d6,
+    type: 3}
+  muzzle: {fileID: 1277789728}
+  bulletPower: 500
+--- !u!114 &1277789734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277789727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eac6ab4efca434445980b24d1410c025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616804560
 GameObject:
   m_ObjectHideFlags: 0
