@@ -38,7 +38,7 @@ public class TBullet : MonoBehaviour {
 	//　敵を撃つ
 	void Shot() {
 		var bulletInstance = GameObject.Instantiate(bulletPrefab, muzzle.position, muzzle.rotation) as GameObject;
-		bulletInstance.GetComponent<Rigidbody>().AddForce(bulletInstance.transform.forward * bulletPower);
+		bulletInstance.GetComponent<Rigidbody>().AddForce(bulletInstance.transform.up * bulletPower);
 		Destroy(bulletInstance, 5f);
 	}
 }
