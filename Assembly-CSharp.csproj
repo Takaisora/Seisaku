@@ -65,13 +65,13 @@
     <Compile Include="Assets\Scenes\Controller\ChangeScript.cs" />
     <Compile Include="Assets\Scenes\Controller\Target.cs" />
     <Compile Include="Assets\Scenes\houdai\BuChangeScript.cs" />
-    <Compile Include="Assets\Scenes\houdai\FBullet.cs" />
-    <Compile Include="Assets\Scenes\houdai\FIDOU.cs" />
+    <Compile Include="Assets\Scenes\houdai\CloseBullet.cs" />
+    <Compile Include="Assets\Scenes\houdai\CloseIDOU.cs" />
+    <Compile Include="Assets\Scenes\houdai\FarBullet.cs" />
+    <Compile Include="Assets\Scenes\houdai\FarIDOU.cs" />
     <Compile Include="Assets\Scenes\houdai\idou.cs" />
     <Compile Include="Assets\Scenes\houdai\Shot.cs" />
     <Compile Include="Assets\Scenes\houdai\Tama.cs" />
-    <Compile Include="Assets\Scenes\houdai\TBullet.cs" />
-    <Compile Include="Assets\Scenes\houdai\TIDOU.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/student/Documents/Seisaku/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -6,19 +6,19 @@ public class ChangeScript : MonoBehaviour
 {
     void Start()
     {
-        GetComponent<TIDOU>().enabled = true;
-        GetComponent<FIDOU>().enabled = false;
+        GetComponent<FarIDOU>().enabled = true;
+        GetComponent<CloseIDOU>().enabled = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if((Input.GetKeyDown("f")) && (GetComponent<TIDOU>().enabled == true)){
-            GetComponent<TIDOU>().enabled = false;
-            GetComponent<FIDOU>().enabled = true;
+        if((Input.GetKeyDown("f")) && (GetComponent<FarIDOU>().enabled == true)){
+            GetComponent<FarIDOU>().enabled = false;
+            GetComponent<CloseIDOU>().enabled = true;
             Cursor.lockState = CursorLockMode.Locked;
-        }else if((Input.GetKeyDown("f")) && (GetComponent<FIDOU>().enabled == true)){
-            GetComponent<TIDOU>().enabled = true;
-            GetComponent<FIDOU>().enabled = false;
+        }else if((Input.GetKeyDown("f")) && (GetComponent<CloseIDOU>().enabled == true)){
+            GetComponent<FarIDOU>().enabled = true;
+            GetComponent<CloseIDOU>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
         }
 
