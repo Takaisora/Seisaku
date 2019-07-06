@@ -61,17 +61,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Block\Block.cs" />
+    <Compile Include="Assets\Scenes\Block\Pop.cs" />
     <Compile Include="Assets\Scenes\Camera\Kirikae.cs" />
     <Compile Include="Assets\Scenes\Controller\ChangeScript.cs" />
     <Compile Include="Assets\Scenes\Controller\Target.cs" />
-    <Compile Include="Assets\Scenes\houdai\BuChangeScript.cs" />
-    <Compile Include="Assets\Scenes\houdai\CloseBullet.cs" />
-    <Compile Include="Assets\Scenes\houdai\CloseIDOU.cs" />
-    <Compile Include="Assets\Scenes\houdai\FarBullet.cs" />
-    <Compile Include="Assets\Scenes\houdai\FarIDOU.cs" />
-    <Compile Include="Assets\Scenes\houdai\idou.cs" />
-    <Compile Include="Assets\Scenes\houdai\Shot.cs" />
-    <Compile Include="Assets\Scenes\houdai\Tama.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\BuChangeScript.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\CloseBullet.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\CloseIDOU.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\FarBullet.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\FarIDOU.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\idou.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\Shot.cs" />
+    <Compile Include="Assets\Scenes\houdai\houdai\Tama.cs" />
+    <Compile Include="Assets\Scenes\houdai\Rotation\Rotation.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/student/Documents/Seisaku/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
