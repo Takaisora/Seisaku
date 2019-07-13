@@ -12,10 +12,17 @@ public class Rotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 axis = transform.TransformDirection(Vector3.forward);
+        var rb = GetComponent<Rigidbody>();
+        Quaternion rot = this.gameObject.transform.rotation;
+        if (Input.GetKeyDown(KeyCode.D)){
+            rb.AddTorque(Vector3.forward * speed * Mathf.PI, ForceMode.Force);
+        }
 
-        //if (Input.GetKeyDown(KeyCode.D)){
-            transform.RotateAround(target.position, axis, speed * Time.deltaTime);
-       // }
+        /*Vector3 axis = transform.TransformDirection(Vector3.forward);
+
+        if (Input.GetKeyDown(KeyCode.D)){
+            //Transform.Translate.z += 90;
+            transform.RotateAround(target.position, axis, speed);
+        }*/
     }
 }
