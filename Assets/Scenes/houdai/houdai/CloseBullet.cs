@@ -13,12 +13,17 @@ public class CloseBullet : MonoBehaviour {
 	[SerializeField]
 	private float bulletPower = 500f;
 
+    
+
 	void Start () {
 
     }
 
 	void Update () {
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        this.gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		transform.rotation = Quaternion.LookRotation(ray.direction);
 
 		RaycastHit hit;
